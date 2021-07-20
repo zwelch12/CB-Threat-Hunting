@@ -1,1 +1,1 @@
-(crossproc_type:"remotethread") and process_name:powershell.exe
+crossproc_action:ACTION_OPEN_THREAD_HANDLE AND process_name:powershell.exe
