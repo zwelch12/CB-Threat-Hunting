@@ -1,1 +1,1 @@
-(process_name:net.exe AND cmdline:group AND cmdline:*domain admins*) OR (process_name:net.exe AND cmdline:localgroup AND cmdline:*administrators*)
+(process_name:net.exe AND process_cmdline:group AND process_cmdline:*domain admins*) OR (process_name:net.exe AND process_cmdline:localgroup AND process_cmdline:*administrators*)
